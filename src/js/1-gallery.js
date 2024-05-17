@@ -89,9 +89,13 @@ gallery.style.gap = '20px';
 gallery.style.flexWrap = 'wrap';
 gallery.style.listStyle = 'none';
 gallery.style.padding = '0';
-gallery.style.marginLeft = '120px';
+gallery.style.marginLeft = '156px';
+gallery.style.marginLeft = '156px';
 gallery.style.marginTop = '24px';
 gallery.style.marginBottom = '24px';
+gallery.style.padding = '0';
+
+
 
 new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
