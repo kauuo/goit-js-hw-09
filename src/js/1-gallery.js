@@ -76,7 +76,12 @@ function createMarkup(arr) {
       ({ preview, original, description }) => `
     <li class="gallery-item">
       <a class="gallery-link" href="${original}">
-        <img class="gallery-image" src="${preview}" alt="${description}" />
+        <img class="gallery-image"
+        src="${preview}" 
+        alt="${description}"
+        width="360"
+        height="200" />
+        
       </a>
     </li>
   `
@@ -88,7 +93,7 @@ gallery.style.display = 'flex';
 gallery.style.gap = '20px';
 gallery.style.flexWrap = 'wrap';
 gallery.style.listStyle = 'none';
-gallery.style.padding = '0';
+// gallery.style.padding = '0';
 gallery.style.marginLeft = '156px';
 gallery.style.marginLeft = '156px';
 gallery.style.marginTop = '24px';
